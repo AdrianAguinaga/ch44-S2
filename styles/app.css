@@ -2,17 +2,17 @@ main
 {
     display: flex;
     height: calc(100vh - 37px);
-   
+    flex-direction: row;
 }
 
 #sectionA 
 {
-    background-color: aqua;
+    background-color: #F4E1C1;
     flex: 8;
 }
 
 #sectionB 
 {
-    background-color: rgb(156, 156, 187);    
+    background-color: #7DCEA0;    
     flex: 6;
 }
