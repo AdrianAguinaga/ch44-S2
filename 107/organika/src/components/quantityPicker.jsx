@@ -28,9 +28,9 @@ function QuantityPicker()
 
     return (
         <div className="quantityPicker">
-        <button class="btn btn-primary" disabled = {quantity===1}  onClick={decrease} >-</button>
+        <button className="btn btn-primary" disabled = {quantity===1}  onClick={decrease} >-</button>
         <label>{quantity}</label>
-        <button class="btn btn-primary" onClick={increase}>+</button>
+        <button className="btn btn-primary" onClick={increase}>+</button>
         </div>
     );
 }
